@@ -1,3 +1,11 @@
+'''
+Author: Ikarospoipoi 35780303ssy@gmail.com
+Date: 2024-08-01 21:52:11
+LastEditors: Ikarospoipoi 35780303ssy@gmail.com
+LastEditTime: 2024-08-01 22:03:09
+FilePath: /undefined/Users/ikaros/Desktop/untitled folder 3/News/news.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 import requests
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -31,7 +39,8 @@ news_api_key = '357af2d9137442898715e4dc18943c99'
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 smtp_user = '35780303ssy@gmail.com'
-smtp_pass = 'ssy010109'
+# This is a dummy password. I fail to send this message due to the security issue.
+smtp_pass = '*********'
 to_email = 'daniel@thefullwiki.org'
 from_email = smtp_user
 
